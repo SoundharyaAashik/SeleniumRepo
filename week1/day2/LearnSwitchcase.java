@@ -1,0 +1,25 @@
+package week1.day2;
+
+public class LearnSwitchcase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number=1;
+		
+		switch(number) {
+		
+		case 0:
+		System.out.println("The number is zero");
+		break;
+		
+		case 1:
+		System.out.println("The number is greater than zero");
+		break;
+		
+		default:
+			System.out.println("The number is negative");
+		}
+
+	}
+
+}
